@@ -1,9 +1,9 @@
 {
     "development": {
-        "username": "gzsyywcaeeuwwb",
-        "password": "ff783105c2e5592056f96907788ff2bba772c5bb1fe6963318aeedbc6368b492",
-        "database": "d27q12mvgove80",
-        "host": "ec2-34-206-252-187.compute-1.amazonaws.com",
+        "username": "postgres",
+        "password": "postgres",
+        "database": "tasklist",
+        "host": "localhost",
         "dialect": "postgres"
     },
     "test": {
@@ -14,10 +14,10 @@
         "dialect": "postgres"
     },
     "production": {
-        "username": "postgres",
-        "password": null,
-        "database": "tasklist-produccion",
-        "host": "localhost",
+        "username": "gzsyywcaeeuwwb",
+        "password": "ff783105c2e5592056f96907788ff2bba772c5bb1fe6963318aeedbc6368b492",
+        "database": "d27q12mvgove80",
+        "host": "ec2-34-206-252-187.compute-1.amazonaws.com",
         "dialect": "postgres"
     }
 }
