@@ -21,6 +21,7 @@ app.use(cors());
 app.get('/', (req, res) => {
     Task.findAll()
         .then(result => res.send(JSON.stringify(result, null, 2)))
+        .catch('Error al conectar')
 
 });
 app.post('/nuevo', (req, res) => {
