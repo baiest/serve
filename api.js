@@ -42,6 +42,6 @@ app.post('/nuevo', (req, res) => {
     console.log(req.body);
     res.send(req.body);
 });
-module.exports = app.listen(port, () => {
+module.exports = app.listen(process.env.port, () => {
     console.log('Servidor iniciado en el puerto %d', port)
 });
